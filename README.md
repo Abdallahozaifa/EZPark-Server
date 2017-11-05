@@ -19,21 +19,21 @@ Description goes here
 Below is an outline of what the api-keys.json file should look like:
 
 {
-    "CapitalOne": "<APIKEY HERE>", 
-    "BlackBoardOAuthSecret": "<APIKEY HERE>",
-    "BlackBoardOAuthKey": "<APIKEY HERE>",
-    "TwillioAccountSID": "<APIKEY HERE>", 
-    "TwillioAuthToken": "<APIKEY HERE>"
+    "CapitalOne": "[APIKEY HERE]", 
+    "BlackBoardOAuthSecret": "[APIKEY HERE]", 
+    "BlackBoardOAuthKey":" [APIKEY HERE]", 
+    "TwillioAccountSID": "[APIKEY HERE]", 
+    "TwillioAuthToken": "[APIKEY HERE]"
 }
 
-Replace <APIKEY HERE> with the corresponding keys for the services.
+Replace [APIKEY HERE] with the corresponding keys for the services.
 
 
 ## Built With
 
 * [Node.js](http://www.dropwizard.io/1.0.2/docs/) - The environment used
 * [CapitalOne Nessus](https://maven.apache.org/) - Automates payment of parking fees
-* [BlackBoard Learn](https://developer.blackboard.com) - Used to fetch university schedules for classes.
+* [BlackBoard Learn Ultra](https://developer.blackboard.com) - Used to fetch university schedules for classes.
 * [Twilio](https://twilio.com) - Allows sending text messages to user's phone after arrival/payment for further directions. 
 * [Cloud9](https://c9.io) - Online collaboration tool for server-side development, and test deployment.
 
