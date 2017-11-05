@@ -16,20 +16,26 @@ Description goes here
 
 ### Installing
 
-<Add all needed API values for api-keys.json>
+Below is an outline of what the api-keys.json file should look like:
 
-End with an example of getting some data out of the system or using it for a little demo
+{
+    "CapitalOne": "<APIKEY HERE>", 
+    "BlackBoardOAuthSecret": "<APIKEY HERE>",
+    "BlackBoardOAuthKey": "<APIKEY HERE>",
+    "TwillioAccountSID": "<APIKEY HERE>", 
+    "TwillioAuthToken": "<APIKEY HERE>"
+}
 
+Replace <APIKEY HERE> with the corresponding keys for the services.
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Node.js](http://www.dropwizard.io/1.0.2/docs/) - The environment used
+* [CapitalOne Nessus](https://maven.apache.org/) - Automates payment of parking fees
+* [BlackBoard Learn](https://developer.blackboard.com) - Used to fetch university schedules for classes.
+* [Twilio](https://twilio.com) - Allows sending text messages to user's phone after arrival/payment for further directions. 
+* [Cloud9](https://c9.io) - Online collaboration tool for server-side development, and test deployment.
 
 ## Versioning
 
@@ -51,6 +57,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Hat tip.
