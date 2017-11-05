@@ -146,7 +146,12 @@ class CapitalOne {
     console.log(accountsURL);
     
     this.client.get(accountsURL, function(data, response) {
-      callback(data);
+      if (data.code == 200)
+        callback(data);
+      else {
+        console.log("Could not get account for costumer payment");
+        return;
+      }
     });
   }
   
@@ -199,7 +204,7 @@ class CapitalOne {
       
                    
       this.client.post(purchaseURL, args, function(data, response) {
-        console.log(data);
+        // Only call callback if successfully added purchase
         if (data.code == 201) {
           callback(data);
         } else {

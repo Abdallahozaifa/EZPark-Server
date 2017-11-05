@@ -232,7 +232,7 @@ var findOptimalParking = function(buildingName, time, name, res) {
         res.send({ "lat": lots[smallestIndex].location.lat, "lng": lots[smallestIndex].location.lon, "time": time, "name": name, "building": buildingName, "price": lots[smallestIndex].price });
         destination = lots[smallestIndex];
       } else {
-        console.log(" Hozaifa broke me");
+        console.log("Illegal coordinates");
         sendNoClassResponse();
       }
 
@@ -294,8 +294,7 @@ var chargeParking = function() {
   if (destination != null) {
     var cost = destination.price;
     processTransaction(cost);
-  }
-  else {
+  } else {
     console.log("No destination set yet!");
   }
 }

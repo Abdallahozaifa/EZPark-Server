@@ -31,8 +31,8 @@ Replace [APIKEY HERE] with the corresponding keys for the services.
 
 ## Built With
 
-* [Node.js](http://www.dropwizard.io/1.0.2/docs/) - The environment used
-* [CapitalOne Nessus](https://maven.apache.org/) - Automates payment of parking fees
+* [Node.js](https://nodejs.org) - The environment used
+* [CapitalOne Nessie](https://api.reimaginebanking.com/) - Automates payment of parking fees
 * [BlackBoard Learn Ultra](https://developer.blackboard.com) - Used to fetch university schedules for classes.
 * [Twilio](https://twilio.com) - Allows sending text messages to user's phone after arrival/payment for further directions. 
 * [Cloud9](https://c9.io) - Online collaboration tool for server-side development, and test deployment.
